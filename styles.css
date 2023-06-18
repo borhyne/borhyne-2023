@@ -5,22 +5,14 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  padding-top: 100px;
 }
 
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  /* Add any necessary styles for your header */
 }
 
 #app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
 }
 
 #controls {
