@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Models
+permalink: /models/
 ---
 
 You can find my writing on [Substack](https://borhyne.substack.com/) and [LinkedIn](https://www.linkedin.com/in/borhyne/). I look forward to connecting with you soon!

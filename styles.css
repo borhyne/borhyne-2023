@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EEE;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 0.7em;
+  transition: background-color 1s linear;
+}
+
+#play-button {
+  margin-right: 0.5rem;
+}
+
+#bpm-slider {
+  margin-left: 0.5rem;
+}
+
+.playing {
+  animation: fadeout 1s linear forwards;
+  background-color: #FFD700;
+  outline: 2px solid black;
+}
+
+@keyframes fadeout {
+  0% {
+    background-color: #FFD700;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+#column-labels,
+#grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  width: 540px;
+  gap: 5px;
+}
+
+#column-labels>div {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.row button {
+  flex: 1;
+}
+
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
