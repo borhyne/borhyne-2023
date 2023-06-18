@@ -5,7 +5,6 @@
 layout: default
 ---
 
-# Welcome!
 This website provides a central place for some projects. In 2020 (covid), I pushed some things forward I had been pushing off like starting a company [Current Sets](https://currentsets.com/) and picked up the guitar. Both have been a long time coming!
 
 ## Mental models
