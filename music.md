@@ -5,14 +5,14 @@ permalink: /music/
 ---
 This is a work in progress. Let me know if there are songs you think I should add [recommendations](https://forms.gle/CNwTc8xPk3tQ4UUS9)
 
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Player</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/site/styles.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@ This is a work in progress. Let me know if there are songs you think I should ad
     <div id="column-labels"></div>
     <div id="grid"></div>
   </div>
-  <script src="script.js"></script>
+  <script src="/site/script.js"></script>
 </body>
 
 </html>
