@@ -8,12 +8,9 @@ This is a work in progress. Let me know if there are songs you think I should ad
 
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music Player</title>
-  <link rel="stylesheet" href="/site/styles.css">
-</head>
+
+<link rel="stylesheet" href="/site/styles.css">
+
 
 <body>
   <div id="app">
