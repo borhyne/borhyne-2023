@@ -6,12 +6,10 @@ layout: default
 ---
 
 # Welcome!
-I'm Samuel (Sam) Flender, a physicist, data scientist, ML engineer, thinker, blogger, and avid mountain biker. I created this website to showcase some of the content I've been creating online.
+I'm Bo Rhyne and this website is an attempt to centralize a few projects I want to work on. Most of these are projects I've wanted to do and don't want to shelf any longer. Covid seemed to shift my view on procrastination. In 2020, I started a company [Current Sets](https://currentsets.com/) and picked up the guitar. Both have been a long time coming!
 
-## A brief bio
-As of October 2022, I'm an ML engineer at Meta in Seattle. Before that, I was Applied Scientist at Amazon, and before that Data Scientist at JP Morgan Chase. Chase was my first industry job, and before that I was working in Academia, first as PhD student at the University of Helsinki, and then as postdoc at Argonne National Laboratory in Lemont, Illinois. My PhD was in Physics, in particular I specialized in the subject of Cosmology, i.e. the study of the Universe at large scales.
+## Mental models
+My goal here is to map out decision making and lessons and create an interactive way to sort through it. [models](/blog/)
 
-## What I write about 
-I started writing about Machine Learning and Data Science back in 2019 when I was working as Data Scientist at Chase. At first I wanted to have a channel to write about my own learnings about ML and data science, but over time my blog evolved and included ML deep-dives as well as practical tips for data scientists and ML engineers, while my audience grew to more than 1K (as of October 2022).
-- find out more about my [blog](https://samflender.com/blog/)
-- find out more about my [book](https://samflender.com/book/)
+## Music  
+I'm a visual learner and also learn by doing. This was a weekend project to create a way to visualize the ways notes are organized on a guitar and to see some songs I've been learning in an interactive way. [music](/music/)
