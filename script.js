@@ -7,7 +7,7 @@ const noteMap = [
   ["E2 ", "F2 ", "Gb2", "G2 ", "Ab2", "A2 ", "Bb2", "B2 ", "C3 "]
 ];
 
-let soundFontUrl = "./site/sound/";
+let soundFontUrl = "/site/sound/";
 let currentChords = [];
 let interval;
 const bpmSlider = document.querySelector('#bpm-slider');
