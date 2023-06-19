@@ -6,7 +6,7 @@ layout: default
 title: null
 ---
 
-This website serves as a central place for my 2023 projects.[2017 projects here.](2017.borhyne.com){:target="_blank"}
+This website serves as a central place for my 2023 projects. [2017 projects here.](https://2017.borhyne.com){:target="_blank"}
 
 
 ## [Models](/models/)
