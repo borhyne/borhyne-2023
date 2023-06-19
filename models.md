@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Models
+title-heading: false
 permalink: /models/
-order: 3
 ---
 
 You can find my writing on [Substack](https://borhyne.substack.com/) and [LinkedIn](https://www.linkedin.com/in/borhyne/). I look forward to connecting with you soon!
