@@ -7,7 +7,7 @@ const noteMap = [
   ["E2 ", "F2 ", "Gb2", "G2 ", "Ab2", "A2 ", "Bb2", "B2 ", "C3 "]
 ];
 
-let soundFontUrl = "/site/sound/";
+let soundFontUrl = "/sound/";
 let currentChords = [];
 let interval;
 const bpmSlider = document.querySelector('#bpm-slider');
@@ -96,7 +96,7 @@ function createColumnLabels() {
 const playButton = document.querySelector("#play-button");
 const songDropdown = document.querySelector("#song-dropdown");
 
-fetch("/site/songs.json")
+fetch("/songs.json")
   .then((response) => response.json())
   .then((data) => {
     const songs = data.songs;
