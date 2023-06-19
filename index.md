@@ -15,9 +15,9 @@ My goal here is to map out decision making and lessons and create an interactive
 ## [Guitar](/guitar/)
 This has been helpful to visualize the ways notes are organized and to simulate some fingerpicking songs I've been learning on acoustic guitar.
 
-![Guitar Simulator](/img/guitarsim.png){: max-width="250" }
+[![Guitar Simulator](/img/guitarsim.png)](/guitar/)
 
 ## [Current Sets](/cs/)
 Current Sets helps people improve their construction documents before starting construction. As of mid 2023, we've helped 220+ projects avoid substantial rework, change orders, and schedule delays.
 
-![Projects reviewed](/img/map.png){: max-width="250" }
+[![Projects reviewed](/img/map.png)](/cs/)
