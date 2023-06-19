@@ -5,7 +5,6 @@
 layout: default
 ---
 
-### Active work
 
 This website serves as a central place for my projects.
 
