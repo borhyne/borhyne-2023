@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+permalink: /
 ---
 <link rel="shortcut icon" type="image/x-icon" href="/site/favicon.ico?">
 
