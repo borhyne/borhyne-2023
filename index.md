@@ -10,5 +10,5 @@ This website provides a central place for some projects. In 2020, I leaned in to
 ## [Models](/site/models/)
 My goal here is to map out decision making and lessons and create an interactive way to sort through it.
 
-## [Guitar](/site/music/)
+## [Guitar](/site/guitar/)
 This has been helpful to visualize the ways notes are organized and to simulate some fingerpicking songs I've been learning on acoustic guitar.
