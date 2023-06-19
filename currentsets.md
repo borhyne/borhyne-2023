@@ -6,7 +6,7 @@ permalink: /cs/
 ## Idea
 We started Current Sets because we were frustrated by the quality of drawings entering construction and wanted to help builders.
 
-## Where are we?
+## Progress so far
 We started in late 2020 and have since reviewed and helped to improve over $4B in construction value. We've built a platform that reduces the time to check for coordination substantially which has allowed us to help our customers avoid construction surprises.
 
 ![Projects reviewed](/site/img/map.png)
