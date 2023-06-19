@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-permalink: /
+title: null
 ---
 
 This website serves as a central place for my projects.
@@ -15,4 +15,4 @@ My goal here is to map out decision making and lessons and create an interactive
 ## [Guitar](/guitar/)
 This has been helpful to visualize the ways notes are organized and to simulate some fingerpicking songs I've been learning on acoustic guitar.
 
-![Guitar Simulator](/img/guitarsim.png)
+[![Guitar Simulator](/img/guitarsim.png)](/guitar/)
