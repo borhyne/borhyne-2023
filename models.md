@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Models
-title-heading: false
+toc: false
 permalink: /models/
 ---
 
