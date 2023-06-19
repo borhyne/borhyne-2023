@@ -10,12 +10,27 @@ const noteMap = [
 let soundFontUrl = "/sound/";
 let currentChords = [];
 let interval;
+let audioMap = {}; // Object to store preloaded audio files
 const bpmSlider = document.querySelector('#bpm-slider');
 const bpmLabel = document.querySelector('#bpm-label');
 
 bpmSlider.addEventListener('input', () => {
   bpmLabel.textContent = `BPM: ${bpmSlider.value}`;
 });
+
+// preload audio files function
+function preloadAudioFiles() {
+  noteMap.forEach((row) => {
+    row.forEach((note) => {
+      const noteName = note.trim();
+      const audio = new Audio(soundFontUrl + noteName + ".mp3");
+      audioMap[noteName] = audio;
+    });
+  });
+}
+
+// call the preload function
+preloadAudioFiles();
 
 function playChord(chord, rowIndex, noteIndex) {
   if (chord === "None") return;
@@ -29,7 +44,9 @@ function playChord(chord, rowIndex, noteIndex) {
     currentChord.button.offsetWidth; // Trigger reflow to restart animation
   }
 
-  const audio = new Audio(soundFontUrl + chord.trim() + ".mp3");
+  // fetch preloaded audio file from audioMap instead of loading a new one
+  const audio = audioMap[chord.trim()];
+  audio.currentTime = 0; // ensure audio starts from beginning
   audio.play();
 
   const noteButton = document.querySelector(`#note-${rowIndex}-${noteIndex}`);
