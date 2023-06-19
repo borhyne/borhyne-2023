@@ -2,7 +2,6 @@
 layout: page
 title: Guitar
 permalink: /guitar/
-order: 2
 ---
 <iframe src="/iframe.html" height="350px" width="100%" style="border:none;"></iframe>
 
