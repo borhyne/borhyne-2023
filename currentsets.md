@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Current Sets
 ---
 ## Idea
 We started Current Sets because we were frustrated by the quality of drawings entering construction and wanted to help builders.
