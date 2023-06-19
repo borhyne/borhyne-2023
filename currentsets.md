@@ -2,7 +2,7 @@
 layout: page
 title: Current Sets
 permalink: /cs/
-order: 3
+order: 1
 ---
 ## Idea
 We started Current Sets because we were frustrated by the quality of drawings entering construction and wanted to help builders.
