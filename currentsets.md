@@ -9,7 +9,7 @@ We started Current Sets because we were frustrated by the quality of drawings en
 ## Progress so far
 We started in late 2020 and have since reviewed and helped to improve over $4B in construction value. We've built a platform that reduces the time to check for coordination substantially which has allowed us to help our customers avoid construction surprises.
 
-<iframe width="420" height="315" src="https://youtu.be/wLwdfaJvHSo" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=wLwdfaJvHSo" frameborder="0" allowfullscreen align="center"></iframe>
 
 
 Our website: [CurrentSets.com](https://currentsets.com/){:target="_blank"}
