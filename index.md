@@ -4,7 +4,7 @@
 
 layout: default
 ---
-
+<link rel="shortcut icon" type="image/x-icon" href="/site/favicon.ico?">
 
 This website serves as a central place for my projects.
 
