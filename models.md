@@ -5,11 +5,8 @@ toc: false
 permalink: /models/
 ---
 
-You can find my writing on [Substack](https://borhyne.substack.com/) and [LinkedIn](https://www.linkedin.com/in/borhyne/). I look forward to connecting with you soon!
+I've found that mental models are really helpful in seeing patterns and making decisions.
 
-Through time, I've found that mental models are really helpful in seeing patterns and making decisions. My plan is on both LinkedIn and Substack to write out stories and use those to help structure this.
+My goal here is to try to write ones that I use out and organize them in an interactive way.
 
-My goal is to create an interactive way to sort through them.
-
-Thanks for reading!
-Bo
+Looking forward to getting this off the ground - it's something I've wanted to do for a while.
