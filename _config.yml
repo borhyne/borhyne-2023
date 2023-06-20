@@ -6,10 +6,10 @@
 name: Bo Rhyne
 
 # Short bio or description (displayed in the header)
-description: projects and posts
+description: 2023 projects
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /img/prof.jpg
+avatar: /img/prof.jpeg
 
 #
 # Flags below are optional
@@ -21,12 +21,13 @@ footer-links:
   email: bo.rhyne1@gmail.com
   facebook:
   flickr:
-  github: borhyne
-  instagram: borhyne
+  github: 
+  instagram:
   linkedin: borhyne
+  substack: borhyne
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: borhyne
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus:
