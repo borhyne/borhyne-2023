@@ -15,7 +15,7 @@ Project teams end up spending weeks / months of their time managing this process
 On top of the administrative time, there's a larger impact to your project seen in rework, schedule delays, and hurt team morale.
 
 ## A better way?
-We've been in pursuit of coming up with a faster and cost effective way to check and improve cross discipline coordination and design quality and have come a long way in 3 years!
+We've been building a practical, fast, and cost effective way to check and improve cross discipline coordination and design quality and have come a long way in 3 years!
 
 ### We improve our platform and process on every review
 ![Improvement](/img/improvement.png)
