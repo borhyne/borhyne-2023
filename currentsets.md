@@ -18,13 +18,13 @@ On top of the administrative time, there's a larger impact to your project seen 
 We've been in pursuit of coming up with a faster and cost effective way to check and improve coordination. We've been
 
 ### We improve our platform and process on every review
-[Improvement](/img/improvement.png)
+[![Improvement](/img/improvement.png)]
 
 ### We've cut down on our set up time allowing us to spend more time reviewing
-[Faster](/img/faster.png)
+[![Faster](/img/faster.png)]
 
 ### Which helps us to do more high quality reviews in a format architects like working with
-[Process](/img/process.png)
+[![Process](/img/process.png)]
 
 ## Progress so far
 We started in late 2020 and have since reviewed and helped to improve over $4B in construction value. We've built a platform that reduces the time to check for coordination substantially which has allowed us to help our customers avoid construction surprises.
