@@ -38,7 +38,7 @@ carousels:
   - images:
     - image: /img/improvement.png
     - image: /img/faster.png
-    - image: /process.png
+    - image: /img/process.png
 
 permalink: /:title/
 
