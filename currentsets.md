@@ -4,30 +4,24 @@ title: Current Sets
 permalink: /cs/
 gallery_a: [ /img/improvement.png, /img/faster.png, /img/process.png ]
 ---
-We started Current Sets after working on construction projects and building construction projects.
+We started Current Sets after working on construction projects and building construction technology.
 
-We asked ourselves: why is it so difficult to understand and improve the coordination and quality of construction documents?
-
-Project teams end up spending weeks / months of their time managing this process during construction.
-
-![RFI time](/img/RFI.jpeg)
-[IMPACT & CONTROL OF RFIs ON CONSTRUCTION PROJECTS (Page 14)](https://www.cmaanet.org/sites/default/files/resource/Impact%20%26%20Control%20of%20RFIs%20on%20Construction%20Projects.pdf)
-
-On top of the administrative time, there's a larger impact to your project seen in rework, schedule delays, and hurt team morale.
+## Why are there so many construction surprises?
+- it takes a lot of time to understand design coordination and quality
+- it's hard to efficiently communicate those problems with the design team
+- a lot teams feel stuck and decide to fix it during construction
+- which leads to rework, change orders, and schedule delays 
 
 ## A better way?
 We've been building a practical, fast, and cost effective way to check and improve cross discipline coordination and design quality and have come a long way in 3 years!
 
-### We improve our platform and process on every review
-
-{% include carousel.html height="250" unit="%" duration="4" images=gallery_a %}
-
+### Continuous improvements
 ![Improvement](/img/improvement.png)
 
-### We've cut down on our set up time allowing us to spend more time reviewing
+### More efficient, more predictable
 ![Faster](/img/faster.png)
 
-### Which helps us to do more high quality reviews in a format architects like working with
+### High Quality
 ![Process](/img/process.png)
 
 ## Progress so far
