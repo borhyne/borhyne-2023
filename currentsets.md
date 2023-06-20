@@ -9,8 +9,8 @@ We asked ourselves: why is it so difficult to understand and improve the coordin
 
 Project teams end up spending weeks / months of their time managing this process during construction.
 
-[RFI time](/img/RFI.jpeg)
-[From page 14 of IMPACT & CONTROL OF RFIs ON CONSTRUCTION PROJECTS](https://www.cmaanet.org/sites/default/files/resource/Impact%20%26%20Control%20of%20RFIs%20on%20Construction%20Projects.pdf)
+![RFI time](/img/RFI.jpeg)
+[IMPACT & CONTROL OF RFIs ON CONSTRUCTION PROJECTS (Page 14)](https://www.cmaanet.org/sites/default/files/resource/Impact%20%26%20Control%20of%20RFIs%20on%20Construction%20Projects.pdf)
 
 On top of the administrative time, there's a larger impact to your project seen in rework, schedule delays, and hurt team morale.
 
