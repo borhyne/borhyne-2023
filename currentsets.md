@@ -2,6 +2,7 @@
 layout: page
 title: Current Sets
 permalink: /cs/
+gallery_a: [ /img/improvement.png, /img/faster.png, /img/process.png ]
 ---
 We started Current Sets after working on construction projects and building construction projects.
 
@@ -18,7 +19,8 @@ On top of the administrative time, there's a larger impact to your project seen 
 We've been building a practical, fast, and cost effective way to check and improve cross discipline coordination and design quality and have come a long way in 3 years!
 
 ### We improve our platform and process on every review
-{% include carousel.html height="250" unit="%" duration="4" number="1" %}
+
+{% include carousel.html height="250" unit="%" duration="4" images=gallery_a %}
 
 ![Improvement](/img/improvement.png)
 
