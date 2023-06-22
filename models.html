@@ -37,7 +37,7 @@
       var width = window.innerWidth,
           height = window.innerHeight, // Adjusted to accommodate the margin
           padding = 0,
-          clusterPadding = 20,
+          clusterPadding = 35,
           maxRadius = 12;
 
       var color = d3.scale.ordinal()
@@ -71,7 +71,7 @@
         var force = d3.layout.force()
             .nodes(nodes)
             .size([width, height])
-            .gravity(.1)
+            .gravity(.3)
             .charge(-20)
             .on("tick", tick)
             .start();
