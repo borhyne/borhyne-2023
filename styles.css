@@ -58,7 +58,7 @@ button {
 #grid {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  width: 540px;
+  width: 100%;
   gap: 5px;
 }
 
