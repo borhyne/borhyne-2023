@@ -2,13 +2,12 @@
 layout: default
 ---
 
-<div class="wrapper-content">
-  <div id="main" role="main" class="container">
-    <div class="iframe-container">
-      {% capture iframe_content %}
-      <iframe src="/models.html" style="border:none;"></iframe>
-      {% endcapture %}
-      {{ iframe_content | markdownify }}
-    </div>
-  </div>
-</div>
+{% capture iframe_content %}
+<iframe src="/models.html" style="position:fixed; top:50px; left:0; right:0; width:100%; height:500px; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+{% endcapture %}
+
+{% assign page_content = iframe_content | markdownify %}
+
+{{ page_content }}
