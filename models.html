@@ -13,8 +13,8 @@
 
       #chart {
         flex-grow: 1;
-        min-width: 675px;
         height: 100%;
+        min-width: 675px; /* Set minimum width */
       }
 
       #info-panel {
@@ -41,17 +41,35 @@
   <body>
     <div id="chart"></div>
     <div id="info-panel"></div>
+    <button id="reset-button">Reset Colors</button>
 
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>
-      var width = window.innerWidth - 250, // Subtract the width of the panel
-          height = window.innerHeight,
-          padding = 0,
+      var padding = 0,
           clusterPadding = 35,
           maxRadius = 12;
 
+      var width, height;
+
       var color = d3.scale.ordinal()
             .range(["#e60049", "#0bb4ff", "#50e991", "#e6d800", "#9b19f5", "#ffa300", "#dc0ab4", "#b3d4ff", "#00bfa0"]);
+
+      function darkenColor(color, percent) {
+        return d3.rgb(color).darker(percent);
+      }
+
+      // Resize function
+      function resize() {
+        width = Math.max(675, window.innerWidth - 250); // Subtract the width of the panel, but not less than 675px
+        height = window.innerHeight;
+
+        // resize the SVG
+        svg.attr("width", width)
+           .attr("height", height);
+
+        // Update the force layout size
+        force.size([width, height]).resume();
+      }
 
       d3.text("word_groups.csv", function(error, text) {
         if (error) throw error;
@@ -100,7 +118,8 @@
 
         node.append("circle")
             .style("fill", function (d) {
-            return color(d.cluster);
+              d.color = color(d.cluster); // Save the initial color
+              return d.color;
             })
             .attr("r", function(d){return d.radius})
             .on('mouseover', function(d) {
@@ -110,9 +129,22 @@
               }
             })
             .on('mouseout', function() {
+              if (currentHoveredCircle === d) {
+                // Leave the text until we hover over a new circle
+                return;
+              }
               infoPanel.html('');
               currentHoveredCircle = null;
+            })
+            .on('click', function(d) {
+              // Decrease brightness on click
+              d3.select(this).style("fill", darkenColor(d3.select(this).style("fill"), 0.1));
             });
+
+        // Reset button behavior
+        d3.select('#reset-button').on('click', function() {
+            node.selectAll('circle').style("fill", function(d) { return d.color; }); // reset to the initial color
+        });
 
         node.append("text")
               .attr("dy", ".3em")
@@ -176,13 +208,13 @@
 
         function collide(alpha) {
           var quadtree = d3.geom.quadtree(nodes);
-          return function (d) {
+          return function(d) {
             var r = d.radius + maxRadius + Math.max(padding, clusterPadding),
                 nx1 = d.x - r,
                 nx2 = d.x + r,
                 ny1 = d.y - r,
                 ny2 = d.y + r;
-            quadtree.visit(function (quad, x1, y1, x2, y2) {
+            quadtree.visit(function(quad, x1, y1, x2, y2) {
               if (quad.point && (quad.point !== d)) {
                 var x = d.x - quad.point.x,
                     y = d.y - quad.point.y,
@@ -200,8 +232,10 @@
             });
           };
         }
-
       });
+
+      window.onresize = resize; // Listen for resize events and recalculate the layout
+      resize(); // Initial resize
     </script>
   </body>
 </html>
