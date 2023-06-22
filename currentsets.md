@@ -21,12 +21,6 @@ We've been building a practical, fast, and cost effective way to check and impro
 ### Continuous improvements
 ![Improvement](/img/improvement.png)
 
-### More efficient, more predictable
-![Faster](/img/faster.png)
-
-### High Quality
-![Process](/img/process.png)
-
 ## Progress so far
 We started in late 2020 and have since reviewed and helped to improve over $4B in construction value. We've built a platform that reduces the time to check for coordination substantially which has allowed us to help our customers avoid construction surprises.
 ![Map](/img/map.png)
