@@ -13,4 +13,4 @@ A programmatic way to help practice fingerpicking songs I've been learning on ac
 An interactive way to sort through mental models.
 
 ## [Current Sets](/cs/)
-Co-founded in 2020. We help builders check and improve coordination and design quality.
+Co-founded in 2020. We help builders save money and time by improving coordination and design quality before construction.
