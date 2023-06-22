@@ -36,7 +36,7 @@
     <script>
       var width = window.innerWidth,
           height = window.innerHeight, // Adjusted to accommodate the margin
-          padding = 1.5,
+          padding = 0,
           clusterPadding = 15,
           maxRadius = 12;
 
@@ -71,8 +71,8 @@
         var force = d3.layout.force()
             .nodes(nodes)
             .size([width, height])
-            .gravity(.5)
-            .charge(-2000)
+            .gravity(.1)
+            .charge(-20)
             .on("tick", tick)
             .start();
 
