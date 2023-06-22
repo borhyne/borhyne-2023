@@ -71,8 +71,8 @@
         var force = d3.layout.force()
             .nodes(nodes)
             .size([width, height])
-            .gravity(.3)
-            .charge(-20)
+            .gravity(.01)
+            .charge(-1)
             .on("tick", tick)
             .start();
 
