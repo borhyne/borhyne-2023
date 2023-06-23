@@ -3,14 +3,12 @@ layout: page
 title: Current Sets
 permalink: /cs/
 ---
-We started Current Sets after spending years working on-site at construction projects and building supporting construction technology.
+We want to help people start construction project from a place of design confidence.
 
-A lot of platforms today exist to maintain a source of truth and follow project management fundamentals.
+We feel the root of a lot of frustration in construction stems one layer deeper that project management tools.
 
-We feel the root of a lot of frustration in construction stems one layer deeper, in the quality of the construction documents.
-
-## Why are there so many construction surprises?
-- it takes a lot of time to understand design coordination and quality
+## Why are there so many surprises in construction?
+- it takes a lot of time to setup for review, understand design coordination and quality
 - it's hard to efficiently communicate those problems with the design team
 - a lot teams feel stuck and decide to fix it during construction
 - which leads to rework, change orders, and schedule delays
