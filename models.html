@@ -40,8 +40,9 @@
   </head>
   <body>
     <div id="chart"></div>
-    <div id="info-panel"></div>
-    <button id="reset-button">Reset Colors</button>
+    <div id="info-panel">
+      <button id="reset-button">Reset Colors</button>
+    </div>
 
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>
@@ -99,8 +100,8 @@
         var force = d3.layout.force()
             .nodes(nodes)
             .size([width, height])
-            .gravity(.01)
-            .charge(-1)
+            .gravity(0.01)
+            .charge(0)
             .on("tick", tick)
             .start();
 
@@ -124,10 +125,17 @@
             .attr("r", function(d){return d.radius})
             .on('mouseover', function(d) {
               if (currentHoveredCircle !== d) {
-                infoPanel.html('<h2>' + d.text + '</h2><p>' + d.description + '</p>');
+                infoPanel.html('<button id="reset-button">Reset Colors</button>' + '<h2>' + d.text + '</h2><h3>' + d.description + '</h3>');
                 currentHoveredCircle = d;
+                d3.select(this).style("fill", darkenColor(d3.select(this).style("fill"), 1.5));
+
+                // Reset button behavior
+                d3.select('#reset-button').on('click', function() {
+                node.selectAll('circle').style("fill", function(d) { return d.color; }); // reset to the initial color
+                });
               }
             })
+
             .on('mouseout', function() {
               if (currentHoveredCircle === d) {
                 // Leave the text until we hover over a new circle
@@ -136,10 +144,6 @@
               infoPanel.html('');
               currentHoveredCircle = null;
             })
-            .on('click', function(d) {
-              // Decrease brightness on click
-              d3.select(this).style("fill", darkenColor(d3.select(this).style("fill"), 0.1));
-            });
 
         // Reset button behavior
         d3.select('#reset-button').on('click', function() {
