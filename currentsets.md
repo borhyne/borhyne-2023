@@ -3,7 +3,7 @@ layout: page
 title: Current Sets
 permalink: /cs/
 ---
-We want to help people start construction project from a place of design confidence.
+We help people start construction projects from a place of design confidence.
 
 We feel the root of a lot of frustration in construction stems one layer deeper that project management tools.
 
